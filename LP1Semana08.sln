@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsStruct", "ClassVsStruct\ClassVsStruct.csproj", "{C8FAEA0D-167C-49C6-8DF1-B989C0E05075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructWithRef", "StructWithRef\StructWithRef.csproj", "{1F76885D-B867-4C3A-9881-B98B728BE828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGame", "MiniGame\MiniGame.csproj", "{C5E0A644-18F2-43F2-801E-2B8D95FFEF49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8FAEA0D-167C-49C6-8DF1-B989C0E05075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FAEA0D-167C-49C6-8DF1-B989C0E05075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FAEA0D-167C-49C6-8DF1-B989C0E05075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FAEA0D-167C-49C6-8DF1-B989C0E05075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F76885D-B867-4C3A-9881-B98B728BE828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F76885D-B867-4C3A-9881-B98B728BE828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F76885D-B867-4C3A-9881-B98B728BE828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F76885D-B867-4C3A-9881-B98B728BE828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E0A644-18F2-43F2-801E-2B8D95FFEF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E0A644-18F2-43F2-801E-2B8D95FFEF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E0A644-18F2-43F2-801E-2B8D95FFEF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E0A644-18F2-43F2-801E-2B8D95FFEF49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
