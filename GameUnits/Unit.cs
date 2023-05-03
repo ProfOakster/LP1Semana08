@@ -2,14 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace GameUnits
 {
-    public class Unit
+    public abstract class Unit
     {
         private int movement;
 
-        public int Health { get; set; }
+        public virtual int Health { get; set; }
+
+        public abstract float Cost{ get; }
 
         public Unit(int movement, int health)
         {
@@ -20,9 +23,9 @@ namespace GameUnits
 
 
 
-        public void Move(Vector2 destination)
+        public void Move()
         {
-
+            Console.WriteLine($"Unit moved {movement} tiles.");
         }
     }
 }

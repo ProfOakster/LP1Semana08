@@ -5,18 +5,17 @@ using System.Threading.Tasks;
 
 namespace GameUnits
 {
-    public class SettlerUnit
+    public class SettlerUnit : Unit
     {
-        public SettlerUnit(int movement, int health)
-                    : base(movement, health) { }
-
-
-        public void Settle(Vector2 destination)
+        public override float Cost
         {
-            
+            get => 5f;
         }
-
-
+        public SettlerUnit() : base(movement, health)
+        {
+            movement = 1;
+            health = 2;
+        }
 
     }
 }
