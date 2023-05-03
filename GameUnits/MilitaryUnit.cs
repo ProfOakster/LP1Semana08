@@ -20,6 +20,7 @@ namespace GameUnits
         public int AttackPower { get; }
         public int XP { get; private set; }
 
+
         public MilitaryUnit(int movement, int health, int attackPower)
         : base(movement, health)
         {

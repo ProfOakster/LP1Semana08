@@ -11,11 +11,7 @@ namespace GameUnits
         {
             get => 5f;
         }
-        public SettlerUnit() : base(movement, health)
-        {
-            movement = 1;
-            health = 2;
-        }
+        public SettlerUnit() : base(1, 2) {}
 
     }
 }
